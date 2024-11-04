@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div id="gameInterface">
+        <div id="canvasDisplay">
+            <div style="display: none;">
+                <img id="image" src="https://upload.wikimedia.org/wikipedia/en/d/d0/Neurosama_new_model.png">
+            </div>
+            <canvas id="tetris"></canvas>
+        </div>
+        <p><button id="start" onclick="gameStart()">Start Game</button></p>
+        <div id="ScoreDisplay">Score: <span id="score"></span></div>
+    </div>
+
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+</body>
+
+</html>
