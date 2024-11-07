@@ -311,16 +311,12 @@ function randomPiece() {
 function CONTROL(event) {
     if (event.keyCode == 37) {
         currentPiece.moveLeft();
-        dropStart = Date.now();
     } else if (event.keyCode == 38) {
         currentPiece.rotate();
-        dropStart = Date.now();
     } else if (event.keyCode == 39) {
         currentPiece.moveRight();
-        dropStart = Date.now();
     } else if (event.keyCode == 40) {
         currentPiece.moveDown();
-        dropStart = Date.now();
     }
 }
 
